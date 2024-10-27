@@ -5,6 +5,7 @@ declare module 'qrcode.react' {
     interface QRCodeProps {
         value: string;
         size?: number;
+        id?: string; // Add this line
         bgColor?: string;
         fgColor?: string;
         level?: 'L' | 'M' | 'Q' | 'H';
